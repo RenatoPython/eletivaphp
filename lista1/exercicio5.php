@@ -9,9 +9,9 @@
   <body>
     <h1>Exercicio 5</h1>
 
-    
-    <form method="post" action="exercicio5resposta.php">
-                        
+
+      <form method="post" action="exercicio5resposta.php">
+
                         <div class="mb-3">
                             <label for="valor1" class="form-label">informe o valor 1</label>
                             <input type="number" id="valor1" name="valor1" class="form-control" required="">
@@ -28,9 +28,9 @@
                         </div>
                     
                     <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
-            
-
+      </form>
+     
+      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>

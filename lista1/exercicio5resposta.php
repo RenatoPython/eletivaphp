@@ -19,11 +19,8 @@
                         $div = ($valor1 + $valor2 + $valor3) / 3;
                         echo "O valor da média é: $div";
                     
-                    
-                    
-
                     }catch (Exception$e){
-                    echo $e->getMessage();
+                    echo $e->getMessage();             
                 }
             }
         ?>
