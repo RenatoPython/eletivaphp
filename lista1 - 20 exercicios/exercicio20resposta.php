@@ -20,12 +20,12 @@
                     if ($tempo > 0) {
                         $velocidadeMedia = $distancia / $tempo;
                         
-                        // Exibe o resultado
-                        echo "<p>Distância percorrida: $distancia km</p>";
-                        echo "<p>Tempo gasto: $tempo horas</p>";
-                        echo "<p>Velocidade média: " . number_format($velocidadeMedia, 2, ',', '.') . " km/h</p>";
+                    // Exibe o resultado
+                    echo "<p>Distância percorrida: $distancia km</p>";
+                    echo "<p>Tempo gasto: $tempo horas</p>";
+                    echo "<p>Velocidade média: " . number_format($velocidadeMedia, 2, ',', '.') . " km/h</p>";
                     } else {
-                        echo "<p>O tempo não pode ser zero ou negativo.</p>";
+                      echo "<p>O tempo não pode ser zero ou negativo.</p>";
                     }
 
                     }catch (Exception$e){

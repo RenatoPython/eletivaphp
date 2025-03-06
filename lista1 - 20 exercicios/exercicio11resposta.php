@@ -8,8 +8,8 @@
   </head>
   <body>
     <h1>Resposta do exercicio 11</h1>
-
-        <?php
+        
+        <?php   //código em PHP
             if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 try{
                   $raio = $_POST['raio'];
@@ -17,8 +17,9 @@
                   // Verificando se o valor do raio é válido
                   if ($raio > 0) {
                       $perimetro = 2 * pi() * $raio;
+                      // Apresentando o valor 
                       echo "<p>O perímetro do círculo é: " . number_format($perimetro, 2) . " unidades.</p>";
-                  } else {
+                  } else {   
                       echo "<p>Por favor, insira um valor válido para o raio.</p>";
                   }
                   

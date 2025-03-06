@@ -17,7 +17,7 @@
                     echo "<h3>Resultado: A área do círculo é " . number_format($area, 2) . "</h3>";
                 }
             }catch (Exception$e){
-                echo $e->getMessage();
+            echo $e->getMessage();
             }
             ?>
         

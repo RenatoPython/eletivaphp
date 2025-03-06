@@ -9,15 +9,15 @@
   <body>
     <h1>Resposta do exercicio 12</h1>
 
-        <?php
+        <?php  //código php
             if($_SERVER['REQUEST_METHOD'] == 'POST'){
-                try{
+                try{  //inserindo os dados
                   $base = $_POST['base'];
                   $expoente = $_POST['expoente'];
                   
                   // Calculando a base elevada ao expoente
                   $resultado = pow($base, $expoente);
-                  
+                  //apresentando o resultado
                   echo "<p>O resultado de $base elevado a $expoente é: " . number_format($resultado, 2) . "</p>";
 
                   }catch (Exception$e){
